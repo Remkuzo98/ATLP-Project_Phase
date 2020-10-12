@@ -4,7 +4,9 @@
   "description": "Make company global travel and accommodation easy and convenient for the strong workforce of savvy members of staff, by leveraging the modern web.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node ./src/index"
+    "start": "nodemon --exec babel-node ./src/index",
+    "lint":"./node_modules/.bin/eslint src/",
+    "dev":"./node_modules/.bin/eslint src/ --fix && npm start"
   },
   "repository": {
     "type": "git",
