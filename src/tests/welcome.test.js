@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable no-undef */
 import chai from 'chai';
 import chaiHttp from 'chai-http';

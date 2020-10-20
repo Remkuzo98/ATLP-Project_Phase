@@ -5,7 +5,7 @@ module.exports = {
     fullName: 'Nishimwe Elysee',
     userName: 'elysee',
     password: 'elysee123',
-    email: 'nishimwelys@gmail.com',
+    email: 'nishimwelys1234@gmail.com',
     createdAt: new Date(),
     updatedAt: new Date(),
   }, {
